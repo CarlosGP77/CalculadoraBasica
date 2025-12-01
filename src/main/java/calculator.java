@@ -12,8 +12,8 @@ public class calculator {
         System.out.print("Introduce el segundo número: ");
         numero2 = scanner.nextDouble();
 
-        System.out.print("Introduce la operación (+ = 1  , - = 2): ");
         do {
+            System.out.print("Introduce la operación (+ = 1  , - = 2, * = 3, / = 4): ");
             operacion = scanner.nextInt();
 
             switch (operacion) {
@@ -24,6 +24,14 @@ public class calculator {
                 case 2:
                     resultado = numero1 - numero2;
                     op ='-';
+                    break;
+                case 3:
+                    resultado = numero1 * numero2;
+                    op = '*';
+                    break;
+                case 4:
+                    resultado = numero1 / numero2;
+                    op = '/';
                     break;
                 default:
                     System.out.println("Operación no válida. Vuelva a intentarlo.");
