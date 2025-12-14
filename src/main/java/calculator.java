@@ -49,7 +49,7 @@ public class calculator {
                     operacion = 0;
                     break;
             }
-        } while (operacion == 0);
+        } while (operacion == 0); //Repetir bucle
 
         // Solo mostrar resultado si es una operación aritmética
         if (operacion >= 1 && operacion <= 4) {
