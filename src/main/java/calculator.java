@@ -50,7 +50,7 @@ public class calculator {
                     operacion = 0;
                     break;
             }
-        } while (operacion == 0); //Es importante hacer un bucle para que puedas elegir varias veces
+        } while (operacion == 0); //Repetir bucles
 
         // Solo mostrar resultado si es una operación aritmética
         if (operacion >= 1 && operacion <= 4) { //Un if util ya que es para 4 opciones aritmeticas
