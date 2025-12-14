@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class calculator {
     public static void main(String[] args){
-        double numero1, numero2, resultado = 0;
+        double numero1, numero2, resultado = 0; //variables utiles
         int operacion;
         String op = "s";
         Scanner scanner = new Scanner(System.in);
